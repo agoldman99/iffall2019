@@ -1,0 +1,36 @@
+body{
+	font-family: "Tahoma", Geneva, san-serif;
+}
+
+h1, h2 {
+	font-family: "Impact", Charcoal, san-serif;
+
+}
+
+main {
+	display: flex;
+
+}
+
+img {
+	width: 100%;
+}
+
+.rightcolumn {
+	width: 75%;
+	margin: 2em 2em 2em 2em;
+}
+
+.leftcolumn {
+	width: 25%;
+	margin: 2em 2em 2em 2em;
+
+}
+
+.video {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+
