@@ -1,0 +1,73 @@
+styles.css
+
+body{
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 14pt;
+}
+
+
+h1{ 
+	font-size: 1em;
+	color: rgb(200, 0, 100); 
+	font-weight: bold;
+ 	text-transform: uppercase;
+ }
+
+ h2{
+ 	font-size: 3em;
+ }
+
+ div {
+ 	font-weight: bolder;
+ 	color: lightblue;
+ }
+
+.fontweight-thin {
+	font-weight: normal;
+}
+.fontweight-normal {
+	font-weight: bold;
+}
+.fontstyle-italicize {
+	font-style: italic;
+}
+
+
+.letterspace-first {
+	letter-spacing: -.1em;
+}
+.letterspace-second {
+	letter-spacing: .3em;
+}
+.letterspace-third {
+	letter-spacing: .9em;
+}
+
+.transformuppercase {
+	text-transform: uppercase;
+}
+.transformlowercase{
+	text-transform: lowercase;
+}
+.transformcapitalize {
+	text-transform: capitalize;
+}
+
+
+.dec-overline {
+	text-decoration: overline;
+}
+.dec-line-through {
+	text-decoration: line-through;
+}
+.dec-underline {
+	text-decoration: underline;
+}
+.dec-underlinevoverlinev{
+	text-decoration: underline overline;
+}
+
+
+
+
+
