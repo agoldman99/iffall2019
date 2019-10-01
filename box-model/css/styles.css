@@ -1,0 +1,62 @@
+body {
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+h1 {
+	margin: 0 0 0 0;
+	font-size: 80px;
+
+}
+
+h2 {
+	margin: 0 0 40px 0;
+	font-size: 30px;
+}
+
+h3 {
+	margin: 0 0 34px 0;
+	text-align: center;
+	font-size: 40px;
+
+}
+
+p{ 
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: -.4px;
+	line-height: 1.4;
+ }
+
+header {
+	background-color: rgba(255,0,0,.5);
+	color: rgb(50,100,255);
+	font-family: 'Archivo Narrow', sans-serif;
+	text-align: center;
+	padding: 150px 0 146px 0;
+	background-image: url('../images/sunglasses-for-dogs.jpg');
+	background-size: contain;
+	background-position: center
+
+}
+
+section > div {
+	width: 960px;
+	/*background-color: rgba(0, 20, 100, .25);*/
+	margin: auto;
+	padding: 34px 0 0 0;
+
+}
+
+section.section_one {
+	background-color: rgba(255, 100, 0, .5);
+
+
+}
+
+.section_one img {
+	float: right;
+	width: 400px;
+	height: 300px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
