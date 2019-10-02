@@ -34,7 +34,7 @@ header {
 	text-align: center;
 	padding: 150px 0 146px 0;
 	background-image: url('../images/sunglasses-for-dogs.jpg');
-	background-size: contain;
+	background-size: cover;
 	background-position: center
 
 }
@@ -43,7 +43,7 @@ section > div {
 	width: 960px;
 	/*background-color: rgba(0, 20, 100, .25);*/
 	margin: auto;
-	padding: 34px 0 0 0;
+	padding: 36px 0 34px 0;
 
 }
 
@@ -60,3 +60,70 @@ section.section_one {
 	margin-left: 30px;
 	margin-bottom: 30px;
 }
+
+
+ul {
+	list-style-type: none; /*took away bullet point that is default for unordered list*/
+	margin: 0;
+	padding:0;
+}
+
+li img {
+	height: 150px;
+	width: 200px;
+	float: left;
+	margin-right: 12px;
+}
+
+h4 {
+	font-size:20px;
+	line-height: 1.4;
+	margin: 0 0 5px 0;
+
+}
+
+li {
+	width: 50%;
+	height: 175px;
+	background-color: rgba(255, 0, 255, .3);
+	padding-right: 25px;
+	box-sizing: border-box;
+	display: inline-block; /*this makes them go next to each other, flow inline*/
+}
+
+li p {
+	margin: 0;
+
+}
+
+section.section_three {
+	background-color: rgba(0, 100, 255, .3);
+
+}
+
+.section_three div {
+	width: 960px;
+	margin: auto;
+	padding: 42px 0 100px 0;
+}
+
+.section_three p {
+	font-size: 26px;
+	text-align: center;
+	margin: 0 113px 0 113px;
+	line-height: 1.35em;
+}
+
+h5 {
+	margin: 2px 0 0 0;
+	font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
