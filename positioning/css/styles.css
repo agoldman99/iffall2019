@@ -1,0 +1,47 @@
+aside.firstaside {
+	background-color: green;
+	float: right;
+
+}
+
+aside.secondaside {
+	background-color: blue;
+	float: right;
+	position: relative;
+	top: 120px;
+}
+
+aside.thirdaside {
+	background-color: green;
+	position: fixed;
+	right: 0;
+	top:0;
+}
+
+section.fourth {
+	position: relative;
+	z-index: -2;
+}
+
+aside.fourthaside {
+	background-color: red;
+	float: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+aside.fifthaside {
+	background-color: black;
+	float: center;
+	position: absolute;
+	right: 120px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 10px;
+	z-index: -1;
+}
+
