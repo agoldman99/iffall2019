@@ -2,6 +2,8 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	background-color: #FFDBAA;
 	line-height: 1.5em;
+	max-width: 500px;
+	margin: auto;
 }
 
 h1 {
@@ -9,11 +11,11 @@ h1 {
 	letter-spacing: 1.2px;
 	margin: 50px;
 	color: #B46800;
-	font-size: 50px;
+	font-size: 31px;
 	background-color: #FFC371;
 	border-radius: 20px;
 	padding: 20px;
-	text-align: left;
+	text-align: center;
 	box-sizing: border-box;
 }
 
@@ -23,9 +25,13 @@ h2 {
 	background-color: #FFC371;
 	margin: 30px 30px 30px 30px;
 	box-sizing: border-box;
-	text-align: left;
+	text-align: center;
 	border-radius: 20px;
 	padding: 20px;
+}
+
+.prep-time {
+	text-align: center;
 }
 
 
@@ -38,18 +44,132 @@ section {
 	margin: 30px 30px 30px 30px;
 	box-sizing: border-box;
 	text-align: left;
+	padding: 20px;
 
 }
+
+.container {
+	display: inline;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	border-color: #FFC371;
+}
+
+.container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: #ffd294;
+	border: 3px solid;
+	border-color: #FFC371;
+	color: #FFC371;
+}
+
+.container:hover input ~ .checkmark {
+	background-color: #FFC371;
+}
+
+.container input: checked ~ .checkmark {
+	background-color: #FFC371;
+	color: #FFC371;
+}
+
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+	display: block;
+}
+
+.container .checkmark:after {
+	left: 9px;
+	top: 5px;
+	width: 5px;
+	height: 10px;
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+
+}
+
 
 .ingredients {
 	line-height: 2rem;
 }
 
+.instructions ol {
+	list-style: none;
+	counter-reset: item;
+}
+
+.instructions li {
+	counter-increment: item;
+	position: relative;
+}
+
+.instructions li:before{
+	content: counter(item);
+	position: absolute;
+	top: 5px;
+	left: -30px;
+	font-weight: bold;
+	font-size: 30px;
+
+}
+
+
+.notes {
+	line-height: 2rem;
+}
+
+.notes ol {
+	list-style: none;
+	counter-reset: item;
+}
+
+.notes li {
+	counter-increment: item;
+	position: relative;
+}
+
+.notes li:before{
+	content: counter(item);
+	position: absolute;
+	top: 5px;
+	left: -30px;
+	font-weight: bold;
+	font-size: 30px;
+
+}
 
 img {
-	margin: 30px;
+	margin: auto;
 	position: center;
 	border-radius: 20px;
+	width: 500px;
+
 }
 
 a{
@@ -66,4 +186,6 @@ footer {
 	font-family: 'Open Sans', sans-serif;
 	color: #B46800;
 	margin: 50px;
+	font-size: 14px;
+	text-align: center;
 }
