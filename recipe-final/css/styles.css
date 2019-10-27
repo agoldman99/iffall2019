@@ -12,7 +12,7 @@ h1 {
 	letter-spacing: 1.4px;
 	margin: 30px 30px 30px 30px;
 	color: white;
-	font-size: 34px;
+	font-size: 30px;
 	background-color: #FFC371;
 	border-radius: 20px;
 	padding: 20px;
@@ -197,6 +197,6 @@ footer {
 	font-family: 'Open Sans', sans-serif;
 	color: #B46800;
 	margin: 50px;
-	font-size: 14px;
+	font-size: 12px;
 	text-align: center;
 }
