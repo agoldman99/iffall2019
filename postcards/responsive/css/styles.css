@@ -1,0 +1,92 @@
+html,
+body {
+	height: 100%;
+	color: white;
+	font-family: 'Big Shoulders Text', cursive;
+
+}
+
+a {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 10;
+		}
+
+
+.card1 {
+	background-image: url(../card1img.jpg);
+	background-size: cover;
+	background-position: right top;
+	margin: 0;
+}
+
+.card2 {
+	background-image: url(../card2img.jpg);
+	background-size: cover;
+	background-position: right top;
+	margin: 0;
+}
+
+.card3 {
+	background-image: url(../card3img.jpg);
+	background-size: cover;
+	background-position: right top;
+	margin: 0;
+}
+
+.quote-container {
+	color: white;
+	font-size: 30px;
+	margin: 0;
+	position: absolute;
+	bottom: 3%;
+	padding: 50px;
+}
+
+.attribution {
+	font-style: italic;
+	text-align: left;
+	font-size: 20px;
+}
+
+.attribution2 {
+	font-style: italic;
+	text-align: left;
+	font-size: 20px;
+}
+
+.card1.quote-container {
+	top: 5%;
+}
+
+.card1.quote2 {
+	bottom: 5%;
+}
+
+div {
+	background-color: rgba(0, 0, 0, .25);
+	padding: 10px;
+
+}
+
+@media (max-width: 800px) {
+	.card1 {
+		margin: 50px;
+	}
+
+	.card2 {
+		margin: 50px;
+	}
+
+	.card3 {
+		margin: 50px;
+	}
+	}
+
+
+
+
+
