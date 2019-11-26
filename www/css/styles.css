@@ -1,0 +1,184 @@
+body {
+	background-color: rgb(252, 230, 230);
+	color: black;
+	font-family: 'Playfair Display', serif;
+	line-height: 1.5em;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	padding: 10px;
+}
+
+h2 {
+	font-size: 30px;
+	text-align: center;
+}
+
+
+/*CONTROL BUTTONS FOR EVERY PAGE*/
+nav{
+	display: block;
+}
+
+nav a {
+				border: 1px solid black;
+				margin: 1%;
+				padding: 7px;
+				width: 13%;
+				height: 40px;
+				box-sizing: border-box;
+				text-align: center;
+				display: inline-block;
+			}
+
+nav a:hover {
+	background-color: rgba(192, 192, 192, .4);
+}
+
+.dots {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: center;
+	max-width: 30%;
+	padding-bottom: 20px;
+}
+
+
+
+/*LANDING PAGE*/
+.landing {
+	background-color: black;
+	/*background-image: url(../monogram.png);
+	background-size: center;
+	background position: right top;
+	margin: 0;*/
+}
+.monogram {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: center;
+	max-width: 30%;
+	margin-top: 20%;
+}
+.monogram:hover {
+	transition: transform .5s;
+	transform: scale(1.5);
+}
+
+
+
+/*OVERVIEW PAGE*/
+.text-column-overview {
+	margin: 100px;
+	padding-right: 50%;
+}
+#btn_overview {
+	text-decoration: none;
+	color: black;
+}
+.text-column-overview img {
+	position: absolute;
+	right: 100px;
+	box-shadow: 15px 15px;
+}
+
+
+
+/*EARLY LIFE PAGE*/
+.text-column-earlylife {
+	margin: 100px;
+	padding-right: 50%;
+}
+#btn_earlylife {
+	text-decoration: none;
+	color: black;
+}
+.text-column-earlylife img {
+	position: absolute;
+	right: 100px;
+	box-shadow: 15px 15px;
+}
+
+
+/*MODELING PAGE*/
+.text-column-modeling {
+	margin: 100px;
+	padding-right: 50%;
+}
+#btn_modeling {
+	text-decoration: none;
+	color: black;
+}
+.text-column-modeling img {
+	position: absolute;
+	right: 100px;
+	box-shadow: 15px 15px;
+}
+
+/*FILMS PAGE*/
+.text-column-films {
+	margin: 100px;
+	padding-right: 50%;
+}
+#btn_films {
+	text-decoration: none;
+	color: black;
+}
+.text-column-films img {
+	position: absolute;
+	right: 100px;
+	box-shadow: 15px 15px;
+}
+
+/*LEGACY PAGE*/
+.text-column-legacy {
+	margin: 100px;
+	padding-right: 50%;
+}
+#btn_legacy {
+	text-decoration: none;
+	color: black;
+}
+.text-column-legacy img {
+	position: absolute;
+	right: 100px;
+	box-shadow: 15px 15px;
+}
+
+/*SOURCES PAGE*/
+.text-column-sources {
+	margin: 100px;
+	padding-right: 50%;
+}
+#btn_sources {
+	text-decoration: none;
+	color: black;
+}
+.text-column-sources img {
+	position: absolute;
+	right: 100px;
+	box-shadow: 15px 15px;
+}
+
+
+footer {
+	font-size: 12px;
+	margin: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
